@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav>
-          <span id="logo">Md A.S</span>
+          
+         <span id="logo">Md A.S</span>
           <button id="nav-btn">Download Resume</button>
+         
         </nav>
     </header>
   <main>
@@ -18,26 +21,30 @@
           <img id="home-img" src="assets/Group.png" alt="">
           <h1 id="home-heading">"In The Near Future, I Hope To Become a Developer </h1>
           <p>My journey begins with curiosity and determination— <br>I can’t wait to see where it leads!</p>
-          <input type="button" id="home-btn"  value="Contact With Me">
-
+          <a href="#support-section" id="home-btn">Contact With Me</a>
      </section>
 <section id="content">
-     <section id="web-development">
+     <section id="web-development">~
              <h1>Why Web Development??</h1>
             <p>Explore the creative and technical aspects of building dynamic websites and applications that drive modern digital experiences.</p>
-          <div class="web-section-div">
+      
+            <div class="web-section-div">\
+
           <div class="web-img-div">
             <img id="web-section-img-1" class="web-img" src="assets/Layer_1.png" alt="">
          </div>
+
            <div class="web-section-div-content"> 
             <h1>I WIll Help People By Creating Modern Web System</h1>
             <p>My commitment to creating modern web solutions is <br> driven by the belief that technology can bridge gaps,<br> solve problems, and make a positive impact on society</p>
             <button class="web-section-btn">Learn More</button>
           </div>
+
           </div>
+
         
           <div class="web-section-div">
-            <div class="web-img-div">
+            <div class="web-img-div img-div-2">
             <img id="web-section-img-2" class="web-img" src="assets/Group 3.png" alt="">
            </div>
             <div class="web-section-div-content">
@@ -48,7 +55,7 @@
           </div>
 
           <div class="web-section-div">
-            <div class="web-img-div">
+            <div class="web-img-div ">
             <img id="web-section-img-3" class="web-img" src="assets/Group 4.png" alt="">
            </div>
             <div class="web-section-div-content">
@@ -131,7 +138,7 @@
         <section id="support-section">
             
               <h1>I need Support</h1>
-                    <p>Lorem ipsum dolor st amet.</p>i
+                    <p>Your feedback is valuable to us, <br> so don’t hesitate to share your thoughts or report any issues.”</p>i
               <div>
            <input type="text" size="40px" placeholder="Suggest me any feedback for me">
            <input type="button" value="Submit">
@@ -154,4 +161,13 @@
 </footer>  
 
 </body>
+
+<script>
+   const scrollButton = document.getElementById('home-btn');
+        const supportSection = document.getElementById('support-section');
+
+        scrollButton.addEventListener('click', () => {
+            supportSection.scrollIntoView({ behavior: 'smooth' });
+        });
+</script>
 </html>
