@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0%;
-    padding: 0%;
+
+* {
+    margin: 0;
+    padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
-header{
+
+header {
     z-index: 10;
     position: fixed;
     width: 100%;
-    top: 0%;
+    top: 0;
     background-color: #ffffff;
-    
 }
-nav{
+
+nav {
     display: flex;
     opacity: 0.7;
     border: none;
@@ -28,131 +32,127 @@ nav{
     background: url(assets/Hero-bg.png);
 }
 
-#logo{
-     float: left;
-     font-size: 30px;
-     font-family: "Roboto Slab", serif;
-     font-optical-sizing: auto;
-   font-weight: 600;
+#logo {
+    float: left;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
 }
-#nav-btn{
+
+#nav-btn {
     position: absolute;
     right: 40px;
-    float: right;
     height: 50px;
     padding: 15px 20px;
-    border-radius: 4px ;
+    border-radius: 4px;
     background-color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     border: 1px solid gray;
     box-shadow: 3px 3px 5px rgb(138, 137, 137);
 }
-#nav-btn:hover{
+
+#nav-btn:hover {
     background-color: #f0efef;
     border: 1px solid #1d1d1d;
 }
 
-main{
+main {
     margin-top: 70px;
     z-index: 0.1;
-
 }
 
-#home{
-    background-image: url(assets/Hero-bg.png);
+#home {
+    background-image: url(../assets/Hero-bg.png);
     height: 690px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    vertical-align: middle;
     text-align: center;
 }
-#home-img{
+
+#home-img {
     width: 300px;
     margin: 90px 20px 0 0;
-  
 }
-#home-heading{
-  font-size: 2.3em;
-  font-family: "Roboto Slab", serif;
-  font-weight: 900;
-  margin: 5px 10px;
+
+#home-heading {
+    font-size: 2.3em;
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    margin: 5px 10px;
 }
-#home>p{
+
+#home > p {
     margin: 0 20px;
     font-size: 23px;
     font-family: "Montserrat", sans-serif;
-   margin-bottom: 40px;
+    margin-bottom: 40px;
 }
-#home-btn{
-    padding: 15px 20px;   
- border: none;
- border-radius: 13px;
- background-color: black;
- color: white;
- text-decoration: none;
- width: 160px;
- 
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+#home-btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 13px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 160px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#home-btn:hover{
+
+#home-btn:hover {
     background-color: #ffffff;
     color: black;
-    border: 2px solid ;
+    border: 2px solid;
     font-size: 15px;
 }
 
-#content{
+#content {
     flex: 1;
-    padding:100px 200px ;
+    padding: 100px 200px;
 }
 
-
-#web-development{
-   background-color: #f2f2f2;
-   padding: 30px 50px ;
-   text-align: center;
-  border: none;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- 
+#web-development {
+    background-color: #f2f2f2;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#web-development>h1{
-    margin: 40px 0 0 0;
+#web-development > h1 {
+    margin: 40px 0 0;
     font-family: "Roboto Slab", serif;
     font-weight: 900;
     font-size: 35px;
-    text-align: center;
 }
-#web-development>p{
+
+#web-development > p {
     text-align: center;
     font-size: 21px;
-    font-family:cursive;
+    font-family: cursive;
     margin: 30px 0;
 }
-.web-section-div{
+
+.web-section-div {
     display: flex;
-     /* text-align: center; */
-    padding: 20px ;
+    padding: 20px;
     background-color: rgb(255, 255, 255);
     margin: 20px;
     border-radius: 20px;
-    border: none;
     height: auto;
     width: 80%;
-    display: block;
-    /* margin: 20px auto; */
-    
 }
-.web-section-div-content{
-      float: left;
+
+.web-section-div-content {
+    float: left;
 }
- .web-section-div-content h1{
+
+.web-section-div-content h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 800;
     margin-right: 20px;
@@ -160,82 +160,84 @@ main{
     font-size: 21px;
     margin-top: 40px;
     margin-bottom: 40px;
-    
-} 
-.web-section-div-content p{
+}
+
+.web-section-div-content p {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 30px;
     font-weight: 600;
 }
 
-.web-section-btn{
+.web-section-btn {
     padding: 15px 20px;
-    border-radius: 4px ;
+    border-radius: 4px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     border: 1px solid gray;
     margin-top: 10px;
     box-shadow: 3px 3px 5px rgb(138, 137, 137);
     background-color: #282828;
-    border: 1px solid #1d1d1d;
     color: white;
 }
-.web-section-btn:hover{
+
+.web-section-btn:hover {
     background-color: white;
     box-shadow: 1px 1px 2.5px rgb(138, 137, 137);
     color: #000000;
 }
-.web-img-div{
-    /* float: right; */
+
+.web-img-div {
     display: inline;
 }
 
-
-
-#web-section-img-2{
+#web-section-img-2 {
     float: left;
-    /* margin-right: 150px; */
     margin-left: 70px;
-    
 }
-#inspiration-section{
-    padding: 50px 20px 0 0 ;
+
+#inspiration-section {
+    padding: 50px 20px 0;
     text-align: center;
 }
-#inspiration-section>h1{
+
+#inspiration-section > h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 900;
     font-size: 38px;
 }
-#inspiration-section>p{
+
+#inspiration-section > p {
     font-size: 21px;
-    font-family:cursive;
+    font-family: cursive;
 }
-#vidio{
+
+#vidio {
     margin: 50px auto;
     text-align: center;
     border: 20px rgb(219, 219, 219);
     box-shadow: 22px 20px 20px rgb(85, 84, 84);
     border-radius: 32px;
+    width: 100%;
 }
 
-#target-section{
+#target-section {
     text-align: center;
-    padding:30px;
+    padding: 30px;
 }
-#target-section>h1{
-    text-align: center;
+
+#target-section > h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 900;
     font-size: 38px;
-    margin: 30px 0 20px 0;
-} 
-#target-section>p{
-    text-align: center;
-    font-size: 21px;
-    font-family:cursive;
+    margin: 30px 0 20px;
 }
-.card{
+
+#target-section > p {
+    font-size: 21px;
+    font-family: cursive;
+}
+
+.card {
     padding: 20px;
     display: inline-block;
     width: 380px;
@@ -244,82 +246,83 @@ main{
     box-shadow: 20px 20px 30px gainsboro;
     border: 1px solid gray;
     border-radius: 14px;
-
 }
-.card>h1{
+
+.card > h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 800;
     font-size: 23px;
 }
-.card>p{
+
+.card > p {
     text-align: center;
     font-size: 21px;
     font-weight: 500;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 20px;
 }
-.card>a{
+
+.card > a {
     font-family: cursive;
     color: black;
     font-size: 17px;
 }
 
-
-#next-target{
+#next-target {
     padding: 40px;
 }
-#next-target>h1{
+
+#next-target > h1 {
     text-align: center;
     font-family: "Roboto Slab", serif;
     font-weight: 900;
     font-size: 38px;
 }
-#next-target>p{
-    margin: 20px 0 50px 0;
+
+#next-target > p {
+    margin: 20px 0 50px;
     text-align: center;
     font-size: 21px;
-    font-family:cursive;
-    
+    font-family: cursive;
 }
 
-.nxt-target-box{
+.nxt-target-box {
     padding: 30px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     border: 2px solid rgb(204, 201, 201);
     margin: 23px;
     border-radius: 22px;
 }
-.nxt-target-img{
+
+.nxt-target-img {
     width: 90px;
     height: 90px;
     margin: 20px;
 }
-    
 
-.nxt-target-content{
-    display: inline; 
+.nxt-target-content {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     line-height: 1.5;
     margin-left: 80px;
 }
 
-.nxt-target-content>h1{
+.nxt-target-content > h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 700;
     font-size: 23px;
-} 
-
- .nxt-target-content>a{
- color: black;
 }
 
-#support-section{
-    background-image: url(assets/handshake.jpg);
+.nxt-target-content > a {
+    color: black;
+}
+
+#support-section {
+    background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
     padding: 40px;
     color: white;
     height: 400px;
@@ -327,22 +330,21 @@ main{
     border-radius: 22px;
 }
 
-
-#support-section>h1{
-    text-align: center;
+#support-section > h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 900;
     font-size: 35px;
     margin: 10px;
 }
-#support-section>p{
-    text-align: center;
+
+#support-section > p {
     font-size: 21px;
     font-weight: 500;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding-bottom: 30px;
 }
-#support-section>div>input{
+
+#support-section > div > input {
     padding: 15px 20px;
     margin: 10px;
     font-size: 20px;
@@ -351,27 +353,47 @@ main{
     border-radius: 13px;
     outline: none;
 }
-#support-section>div>input:hover{
+
+.btn {
+    padding: 15px 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 13px;
+    outline: none;
+}
+
+#support-section > div > input, .btn:hover {
     background-color: #f2f2f2;
 }
-footer{
+
+footer {
     margin-top: 10px;
-    
-    /* display: inline; */
+    display: flex;
     width: 100%;
     height: 40px;
     padding: 20px;
     background-color: #ebebeb;
 }
-footer>p{
-    margin:0 300px;
+
+footer > p {
+    margin: 0 300px;
     float: left;
     color: black;
-    font-family:"Roboto Slab", serif ;
+    font-family: "Roboto Slab", serif;
     font-weight: 800;
     font-size: 23px;
 }
-footer>div{
-    margin:0px 300px;
+
+footer > div {
+    margin: 0 300px;
     float: right;
+    display: flex;
+}
+
+footer > div img {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
 }
